@@ -1,0 +1,744 @@
+{
+  "params": {
+    "X": 800,
+    "Y": 520,
+    "Z": 560,
+    "wall_t": 3,
+    "opening_y": 380,
+    "opening_z": 310,
+    "opening_zmin": 145,
+    "opening_zmax": 455,
+    "door_y": 430,
+    "door_z": 360,
+    "door_t": 4,
+    "door_closed_zmin": 120,
+    "door_closed_zmax": 480,
+    "lift": 350,
+    "rail_l": 820,
+    "pillar_l": 880,
+    "actuator_stroke": 350
+  },
+  "parts": {
+    "P01": {
+      "title": "Tấm đáy / BASE PANEL",
+      "color": "#a7bacc",
+      "material": "Nhôm tấm 5052 / t=3",
+      "dim": "800 × 520 × 3",
+      "notes": [
+        "4 lỗ Ø6.5 tại (X,Y)=(±375,±235).",
+        "Dùng mặt phẳng đáy làm datum Z=0.",
+        "Bo cạnh và khử ba via trước khi lắp."
+      ],
+      "qty": 1,
+      "fab": true,
+      "front": [
+        0,
+        0,
+        1
+      ],
+      "dims3": [
+        [
+          "X",
+          800
+        ],
+        [
+          "Y",
+          520
+        ],
+        [
+          "t",
+          3
+        ]
+      ]
+    },
+    "P02": {
+      "title": "Tấm nóc kín / TOP PANEL",
+      "color": "#c4d0dc",
+      "material": "Nhôm tấm 5052 / t=3",
+      "dim": "800 × 520 × 3",
+      "notes": [
+        "4 lỗ Ø6.5 tại (X,Y)=(±375,±235).",
+        "Không khoét cửa, không dùng nắp bật.",
+        "Lắp kín cố định với gioăng mép."
+      ],
+      "qty": 1,
+      "fab": true,
+      "front": [
+        0,
+        0,
+        1
+      ],
+      "dims3": []
+    },
+    "P03": {
+      "title": "Vách trước / sau kín",
+      "color": "#a4bac9",
+      "material": "Nhôm tấm 5052 / t=3",
+      "dim": "800 × 554 × 3",
+      "notes": [
+        "2 chi tiết giống nhau cho FRONT và BACK.",
+        "6 lỗ Ø5.2, cột X=-360/0/+360, hàng Z=±245.",
+        "Vách kín, không cửa, không kính quan sát."
+      ],
+      "qty": 2,
+      "fab": true,
+      "front": [
+        0,
+        -1,
+        0
+      ],
+      "dims3": []
+    },
+    "P04": {
+      "title": "Vách đầu có khẩu độ / END WALL",
+      "color": "#8eafc5",
+      "material": "Nhôm tấm 5052 / t=3",
+      "dim": "520 × 554 × 3; cutout 380 × 310",
+      "notes": [
+        "2 vách đầu X- và X+, đặt đối diện theo cùng trục X.",
+        "Khẩu độ: Y=-190...+190; Z tổng thể=145...455.",
+        "6 lỗ Ø5.2 tại Y=±240; Z local=-236/0/+236.",
+        "Mép dưới khẩu độ cách đáy hộp 145 mm."
+      ],
+      "qty": 2,
+      "fab": true,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P05": {
+      "title": "Tấm cửa trượt / SLIDING SHUTTER",
+      "color": "#f0a34a",
+      "material": "Nhôm 5052 / t=4",
+      "dim": "430 × 360 × 4",
+      "notes": [
+        "2 tấm giống nhau, đối xứng qua tâm buồng.",
+        "4 lỗ Ø6.4 tại Y=±198, Zlocal=±100.",
+        "1 lỗ liên kết Ø8.6 tại Y=192, Zlocal=110.",
+        "Chồng mép khẩu độ 25 mm mỗi phía khi đóng.",
+        "Hành trình nâng đề xuất: +350 mm theo Z."
+      ],
+      "qty": 2,
+      "fab": true,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P06": {
+      "title": "Trụ đỡ ray / RAIL TOWER",
+      "color": "#7c98ad",
+      "material": "Nhôm hộp 30×30×4",
+      "dim": "30 × 30 × 880",
+      "notes": [
+        "4 trụ, hai trụ cho mỗi cửa.",
+        "Lỗ rỗng giữa 22×22 mm; kết cấu minh họa.",
+        "Cần đỡ ray cao hơn nóc hộp khi cửa mở.",
+        "Khuyến nghị liên kết cứng bằng thanh giằng nóc P12."
+      ],
+      "qty": 4,
+      "fab": true,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P07": {
+      "title": "Ray dẫn hướng đứng / LINEAR RAIL",
+      "color": "#247e83",
+      "material": "Ray thép, hàng mua tiêu chuẩn",
+      "dim": "8 × 12 × 820",
+      "notes": [
+        "4 thanh: 2 ray cho mỗi cửa.",
+        "13 lỗ giả định Ø4.4, bước 60, mép đầu 50 mm.",
+        "CHỈ là mô hình envelope: thay bằng ray CAD hãng.",
+        "Ưu tiên ray + block cùng mã và cùng nhà sản xuất."
+      ],
+      "qty": 4,
+      "fab": false,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P08": {
+      "title": "Con trượt / GUIDE BLOCK",
+      "color": "#2b8e94",
+      "material": "Block trượt, hàng mua",
+      "dim": "18 × 28 × 38",
+      "notes": [
+        "8 block, mỗi ray dùng 2 block.",
+        "Rãnh + lỗ chỉ là hình bao minh họa.",
+        "Khớp nối block phải tương thích ray P07.",
+        "Không gia công block theo các kích thước minh họa."
+      ],
+      "qty": 8,
+      "fab": false,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P09": {
+      "title": "Giá chữ L / CARRIAGE BRACKET",
+      "color": "#546e87",
+      "material": "Thép tấm gấp 5 mm",
+      "dim": "62 × 42 × 37",
+      "notes": [
+        "8 cái, ghép block trượt với tấm cửa.",
+        "Phôi chấn chữ L: cánh 62, cạnh 42, thành đứng 32, dày 5.",
+        "4 lỗ Ø6.4 trên cánh ngang tại X=9,24; Y=±12.",
+        "Điều chỉnh offset khi áp vào model ray thực tế."
+      ],
+      "qty": 8,
+      "fab": true,
+      "front": [
+        0,
+        0,
+        1
+      ],
+      "dims3": []
+    },
+    "P10": {
+      "title": "Thân actuator điện 24 V",
+      "color": "#735fa2",
+      "material": "Hàng mua / envelope only",
+      "dim": "38 × 38 × 290; stroke 350",
+      "notes": [
+        "2 actuator: một bộ nâng mỗi cửa.",
+        "Hành trình yêu cầu 350 mm, tải tính theo khối lượng tấm cửa.",
+        "Chọn loại có phanh hoặc giải pháp chống tụt khi mất nguồn.",
+        "Kích thước body là tham chiếu, KHÔNG phải mã hàng."
+      ],
+      "qty": 2,
+      "fab": false,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P10R": {
+      "title": "Ty actuator (vị trí đóng)",
+      "color": "#b4abc9",
+      "material": "Thuộc cụm actuator",
+      "dim": "Ø12 × 75 lộ thiên (đóng)",
+      "notes": [
+        "Ty được mô phỏng tại trạng thái cửa đóng.",
+        "Khi mở tăng chiều dài lộ thiên +350 mm.",
+        "Cần giữ khoảng an toàn và kiểm tra end-stop thực tế."
+      ],
+      "qty": 2,
+      "fab": false,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P11": {
+      "title": "Tai nối actuator / DRIVE LINK",
+      "color": "#c18f52",
+      "material": "Thép mạ / t=6",
+      "dim": "48 × 108 × 6",
+      "notes": [
+        "2 tai nối, mỗi cửa một cái.",
+        "2 lỗ Ø8.4 cách tâm 84 mm theo Y.",
+        "Giữ trục truyền lực song song phương Z, tránh xoắn cửa."
+      ],
+      "qty": 2,
+      "fab": true,
+      "front": [
+        0,
+        0,
+        1
+      ],
+      "dims3": []
+    },
+    "P12": {
+      "title": "Dải chắn sáng / LIGHT SEAL",
+      "color": "#434f59",
+      "material": "Nỉ/bàn chải chặn sáng / t=3",
+      "dim": "3 × 20 × 360 (module)",
+      "notes": [
+        "4 dải đứng + 4 dải ngang cắt theo khẩu độ.",
+        "Vật liệu có độ ma sát thấp, không gây kẹt cửa.",
+        "Thiết kế mép chồng và kiểm thử độ rò sáng thực tế."
+      ],
+      "qty": 8,
+      "fab": false,
+      "front": [
+        1,
+        0,
+        0
+      ],
+      "dims3": []
+    },
+    "P13": {
+      "title": "Thanh giằng đỉnh / TOP BRIDGE",
+      "color": "#819db0",
+      "material": "Nhôm hộp 30 × 30",
+      "dim": "30 × 500 × 30",
+      "notes": [
+        "2 thanh giằng liên kết 2 trụ cùng một cửa.",
+        "Lắp tại Z=875 mm, để ổn định ray vươn cao.",
+        "Đây là thanh gá ngoài, không khoét nóc hộp."
+      ],
+      "qty": 2,
+      "fab": true,
+      "front": [
+        0,
+        0,
+        1
+      ],
+      "dims3": []
+    }
+  },
+  "assembly": [
+    {
+      "pid": "P01",
+      "name": "BASE",
+      "loc": [
+        0,
+        0,
+        1.5
+      ]
+    },
+    {
+      "pid": "P02",
+      "name": "ROOF",
+      "loc": [
+        0,
+        0,
+        558.5
+      ]
+    },
+    {
+      "pid": "P03",
+      "name": "FRONT_PANEL",
+      "loc": [
+        0,
+        -258.5,
+        280
+      ]
+    },
+    {
+      "pid": "P03",
+      "name": "REAR_PANEL",
+      "loc": [
+        0,
+        258.5,
+        280
+      ]
+    },
+    {
+      "pid": "P04",
+      "name": "END_L",
+      "loc": [
+        -398.5,
+        0,
+        280
+      ]
+    },
+    {
+      "pid": "P05",
+      "name": "SHUTTER_L",
+      "loc": [
+        -407,
+        0,
+        300
+      ]
+    },
+    {
+      "pid": "P13",
+      "name": "BRIDGE_L",
+      "loc": [
+        -430,
+        0,
+        875
+      ]
+    },
+    {
+      "pid": "P06",
+      "name": "TOWER_L_F",
+      "loc": [
+        -430,
+        -237,
+        440
+      ]
+    },
+    {
+      "pid": "P07",
+      "name": "RAIL_L_F",
+      "loc": [
+        -451,
+        -237,
+        450
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_L_F_1",
+      "loc": [
+        -468,
+        -237,
+        205
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_L_F_1",
+      "loc": [
+        -436,
+        -209,
+        205
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_L_F_2",
+      "loc": [
+        -468,
+        -237,
+        395
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_L_F_2",
+      "loc": [
+        -436,
+        -209,
+        395
+      ]
+    },
+    {
+      "pid": "P06",
+      "name": "TOWER_L_B",
+      "loc": [
+        -430,
+        237,
+        440
+      ]
+    },
+    {
+      "pid": "P07",
+      "name": "RAIL_L_B",
+      "loc": [
+        -451,
+        237,
+        450
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_L_B_1",
+      "loc": [
+        -468,
+        237,
+        205
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_L_B_1",
+      "loc": [
+        -436,
+        209,
+        205
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_L_B_2",
+      "loc": [
+        -468,
+        237,
+        395
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_L_B_2",
+      "loc": [
+        -436,
+        209,
+        395
+      ]
+    },
+    {
+      "pid": "P10",
+      "name": "ACTUATOR_L",
+      "loc": [
+        -448,
+        293,
+        200
+      ]
+    },
+    {
+      "pid": "P10R",
+      "name": "ACT_ROD_L",
+      "loc": [
+        -448,
+        293,
+        400.5
+      ]
+    },
+    {
+      "pid": "P11",
+      "name": "DRIVE_LINK_L",
+      "loc": [
+        -426,
+        250,
+        420
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_VERT_L_-202",
+      "loc": [
+        -403.5,
+        -202,
+        300
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_VERT_L_202",
+      "loc": [
+        -403.5,
+        202,
+        300
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_H_L_133",
+      "loc": [
+        -403.5,
+        0,
+        133
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_H_L_467",
+      "loc": [
+        -403.5,
+        0,
+        467
+      ]
+    },
+    {
+      "pid": "P04",
+      "name": "END_R",
+      "loc": [
+        398.5,
+        0,
+        280
+      ]
+    },
+    {
+      "pid": "P05",
+      "name": "SHUTTER_R",
+      "loc": [
+        407,
+        0,
+        300
+      ]
+    },
+    {
+      "pid": "P13",
+      "name": "BRIDGE_R",
+      "loc": [
+        430,
+        0,
+        875
+      ]
+    },
+    {
+      "pid": "P06",
+      "name": "TOWER_R_F",
+      "loc": [
+        430,
+        -237,
+        440
+      ]
+    },
+    {
+      "pid": "P07",
+      "name": "RAIL_R_F",
+      "loc": [
+        451,
+        -237,
+        450
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_R_F_1",
+      "loc": [
+        468,
+        -237,
+        205
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_R_F_1",
+      "loc": [
+        436,
+        -209,
+        205
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_R_F_2",
+      "loc": [
+        468,
+        -237,
+        395
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_R_F_2",
+      "loc": [
+        436,
+        -209,
+        395
+      ]
+    },
+    {
+      "pid": "P06",
+      "name": "TOWER_R_B",
+      "loc": [
+        430,
+        237,
+        440
+      ]
+    },
+    {
+      "pid": "P07",
+      "name": "RAIL_R_B",
+      "loc": [
+        451,
+        237,
+        450
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_R_B_1",
+      "loc": [
+        468,
+        237,
+        205
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_R_B_1",
+      "loc": [
+        436,
+        209,
+        205
+      ]
+    },
+    {
+      "pid": "P08",
+      "name": "BLOCK_R_B_2",
+      "loc": [
+        468,
+        237,
+        395
+      ]
+    },
+    {
+      "pid": "P09",
+      "name": "BRACKET_R_B_2",
+      "loc": [
+        436,
+        209,
+        395
+      ]
+    },
+    {
+      "pid": "P10",
+      "name": "ACTUATOR_R",
+      "loc": [
+        448,
+        293,
+        200
+      ]
+    },
+    {
+      "pid": "P10R",
+      "name": "ACT_ROD_R",
+      "loc": [
+        448,
+        293,
+        400.5
+      ]
+    },
+    {
+      "pid": "P11",
+      "name": "DRIVE_LINK_R",
+      "loc": [
+        426,
+        250,
+        420
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_VERT_R_-202",
+      "loc": [
+        403.5,
+        -202,
+        300
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_VERT_R_202",
+      "loc": [
+        403.5,
+        202,
+        300
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_H_R_133",
+      "loc": [
+        403.5,
+        0,
+        133
+      ]
+    },
+    {
+      "pid": "P12",
+      "name": "SEAL_H_R_467",
+      "loc": [
+        403.5,
+        0,
+        467
+      ]
+    }
+  ]
+}

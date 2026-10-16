@@ -1,0 +1,18 @@
+{
+  "method": "actual visible Qt main-loop timer callbacks; includes render and UI updates; isolated run",
+  "samples": 180,
+  "viewport_size": [
+    1335,
+    729
+  ],
+  "mean_gui_fps": 30.972421567533296,
+  "median_interval_ms": 26.393199999997563,
+  "p95_interval_ms": 67.5493399999997,
+  "mean_callback_ms": 27.895388333333397,
+  "mean_physics_step_ms": 2.2250152605459252,
+  "mean_scene_update_ms": 6.496921000000082,
+  "mean_render_ms": 12.360277499999981,
+  "state": "LEFT_SHOE_INSPECTION",
+  "fault": "",
+  "note": "Timer target is 60 Hz; performance depends on GPU, DPI, UI and concurrent export."
+}

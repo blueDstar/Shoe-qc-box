@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "source_instances": 48,
+  "cycles": 2,
+  "fault": "",
+  "final_left_mm": 0.0,
+  "final_right_mm": 0.0,
+  "checks": [
+    "actual OPEN/STOP widget clicks",
+    "slider GO TO",
+    "opposite-door refusal",
+    "pause clock and robot pose",
+    "alternating FSM",
+    "static actor matrices unchanged",
+    "seven Qt tabs rendered",
+    "12 multi-face QC poses",
+    "actual FRONT/TOP images",
+    "camera capture save"
+  ],
+  "render_updates": 636,
+  "artifacts": [
+    "F:\\shoeQCbox\\reports\\gui_closed_viewport.png",
+    "F:\\shoeQCbox\\reports\\gui_closed.png",
+    "F:\\shoeQCbox\\reports\\gui_left_inspection_viewport.png",
+    "F:\\shoeQCbox\\reports\\gui_left_inspection.png",
+    "F:\\shoeQCbox\\reports\\gui_right_inspection_viewport.png",
+    "F:\\shoeQCbox\\reports\\gui_right_inspection.png",
+    "F:\\shoeQCbox\\reports\\gui_motion.png",
+    "F:\\shoeQCbox\\reports\\gui_components.png",
+    "F:\\shoeQCbox\\reports\\gui_sequence.png",
+    "F:\\shoeQCbox\\reports\\gui_settings.png",
+    "F:\\shoeQCbox\\reports\\gui_logs.png",
+    "F:\\shoeQCbox\\reports\\gui_camera_qc.png"
+  ],
+  "wall_s": 33.5828746
+}

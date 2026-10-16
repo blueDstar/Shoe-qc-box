@@ -1,0 +1,4173 @@
+{
+  "cad_path": "F:\\shoeQCbox\\Shoe_QC_Dual_Shutter_STEP_CAD_BOM_RevA\\STEP",
+  "main_assembly": "GA_ASSEMBLY_CLOSED.step",
+  "unit": "mm",
+  "coordinate_system": "right-handed X/Y/Z; Z up; box centered in X/Y; base Z=0",
+  "files": [
+    {
+      "file": "GA_ASSEMBLY_CLOSED.SLDASM",
+      "bytes": 1669470,
+      "classification": "native_reference"
+    },
+    {
+      "file": "GA_ASSEMBLY_CLOSED.step",
+      "bytes": 2012947,
+      "classification": "assembly_state",
+      "sha256": "b8be503ab6d2790def3fd382782365a8556f8724426039d3892525e4f0ee25e3",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "SHOEVISION_QC_DUAL_SHUTTER_REV_A",
+        "BASE",
+        "ROOF",
+        "FRONT_PANEL",
+        "REAR_PANEL",
+        "END_L",
+        "SHUTTER_L",
+        "BRIDGE_L",
+        "TOWER_L_F",
+        "RAIL_L_F",
+        "BLOCK_L_F_1",
+        "BRACKET_L_F_1",
+        "BLOCK_L_F_2",
+        "BRACKET_L_F_2",
+        "TOWER_L_B",
+        "RAIL_L_B",
+        "BLOCK_L_B_1",
+        "BRACKET_L_B_1",
+        "BLOCK_L_B_2",
+        "BRACKET_L_B_2",
+        "ACTUATOR_L",
+        "ACT_ROD_L",
+        "DRIVE_LINK_L",
+        "SEAL_VERT_L_-202",
+        "SEAL_VERT_L_202",
+        "SEAL_H_L_133",
+        "SEAL_H_L_467",
+        "END_R",
+        "SHUTTER_R",
+        "BRIDGE_R",
+        "TOWER_R_F",
+        "RAIL_R_F",
+        "BLOCK_R_F_1",
+        "BRACKET_R_F_1",
+        "BLOCK_R_F_2",
+        "BRACKET_R_F_2",
+        "TOWER_R_B",
+        "RAIL_R_B",
+        "BLOCK_R_B_1",
+        "BRACKET_R_B_1",
+        "BLOCK_R_B_2",
+        "BRACKET_R_B_2",
+        "ACTUATOR_R",
+        "ACT_ROD_R",
+        "DRIVE_LINK_R",
+        "SEAL_VERT_R_-202",
+        "SEAL_VERT_R_202",
+        "SEAL_H_R_133",
+        "SEAL_H_R_467"
+      ],
+      "assembly_occurrences": 48,
+      "has_color": true,
+      "readable": true,
+      "instances": 48,
+      "bbox_mm": [
+        -477.0,
+        -260.0,
+        0.0,
+        477.0,
+        312.0,
+        890.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        954.0,
+        572.0,
+        890.0
+      ]
+    },
+    {
+      "file": "GA_ASSEMBLY_L_OPEN.step",
+      "bytes": 2012946,
+      "classification": "assembly_state",
+      "sha256": "b049c951e28134b2f2ea841f604d16e9b247159d1007e9ec7a2293d992144725",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "SHOEVISION_QC_DOOR_L_OPEN",
+        "BASE",
+        "ROOF",
+        "FRONT_PANEL",
+        "REAR_PANEL",
+        "END_L",
+        "SHUTTER_L",
+        "BRIDGE_L",
+        "TOWER_L_F",
+        "RAIL_L_F",
+        "BLOCK_L_F_1",
+        "BRACKET_L_F_1",
+        "BLOCK_L_F_2",
+        "BRACKET_L_F_2",
+        "TOWER_L_B",
+        "RAIL_L_B",
+        "BLOCK_L_B_1",
+        "BRACKET_L_B_1",
+        "BLOCK_L_B_2",
+        "BRACKET_L_B_2",
+        "ACTUATOR_L",
+        "ACT_ROD_L",
+        "DRIVE_LINK_L",
+        "SEAL_VERT_L_-202",
+        "SEAL_VERT_L_202",
+        "SEAL_H_L_133",
+        "SEAL_H_L_467",
+        "END_R",
+        "SHUTTER_R",
+        "BRIDGE_R",
+        "TOWER_R_F",
+        "RAIL_R_F",
+        "BLOCK_R_F_1",
+        "BRACKET_R_F_1",
+        "BLOCK_R_F_2",
+        "BRACKET_R_F_2",
+        "TOWER_R_B",
+        "RAIL_R_B",
+        "BLOCK_R_B_1",
+        "BRACKET_R_B_1",
+        "BLOCK_R_B_2",
+        "BRACKET_R_B_2",
+        "ACTUATOR_R",
+        "ACT_ROD_R",
+        "DRIVE_LINK_R",
+        "SEAL_VERT_R_-202",
+        "SEAL_VERT_R_202",
+        "SEAL_H_R_133",
+        "SEAL_H_R_467"
+      ],
+      "assembly_occurrences": 48,
+      "has_color": true,
+      "readable": true,
+      "instances": 48,
+      "bbox_mm": [
+        -477.0,
+        -260.0,
+        0.0,
+        477.0,
+        312.0,
+        890.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        954.0,
+        572.0,
+        890.0
+      ]
+    },
+    {
+      "file": "GA_ASSEMBLY_R_OPEN.step",
+      "bytes": 2013006,
+      "classification": "assembly_state",
+      "sha256": "68730da13882b95af8dacbfdcec3328bc8bd49f030b5bbdf7c97c741d3e26230",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "SHOEVISION_QC_DOOR_R_OPEN",
+        "BASE",
+        "ROOF",
+        "FRONT_PANEL",
+        "REAR_PANEL",
+        "END_L",
+        "SHUTTER_L",
+        "BRIDGE_L",
+        "TOWER_L_F",
+        "RAIL_L_F",
+        "BLOCK_L_F_1",
+        "BRACKET_L_F_1",
+        "BLOCK_L_F_2",
+        "BRACKET_L_F_2",
+        "TOWER_L_B",
+        "RAIL_L_B",
+        "BLOCK_L_B_1",
+        "BRACKET_L_B_1",
+        "BLOCK_L_B_2",
+        "BRACKET_L_B_2",
+        "ACTUATOR_L",
+        "ACT_ROD_L",
+        "DRIVE_LINK_L",
+        "SEAL_VERT_L_-202",
+        "SEAL_VERT_L_202",
+        "SEAL_H_L_133",
+        "SEAL_H_L_467",
+        "END_R",
+        "SHUTTER_R",
+        "BRIDGE_R",
+        "TOWER_R_F",
+        "RAIL_R_F",
+        "BLOCK_R_F_1",
+        "BRACKET_R_F_1",
+        "BLOCK_R_F_2",
+        "BRACKET_R_F_2",
+        "TOWER_R_B",
+        "RAIL_R_B",
+        "BLOCK_R_B_1",
+        "BRACKET_R_B_1",
+        "BLOCK_R_B_2",
+        "BRACKET_R_B_2",
+        "ACTUATOR_R",
+        "ACT_ROD_R",
+        "DRIVE_LINK_R",
+        "SEAL_VERT_R_-202",
+        "SEAL_VERT_R_202",
+        "SEAL_H_R_133",
+        "SEAL_H_R_467"
+      ],
+      "assembly_occurrences": 48,
+      "has_color": true,
+      "readable": true,
+      "instances": 48,
+      "bbox_mm": [
+        -477.0,
+        -260.0,
+        0.0,
+        477.0,
+        312.0,
+        890.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        954.0,
+        572.0,
+        890.0
+      ]
+    },
+    {
+      "file": "P01.step",
+      "bytes": 30183,
+      "classification": "part",
+      "sha256": "455feb3bf7244a019fc4482704c1e03d9a66c8cd7efd165985217640e5d1ebde",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 1"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -400.0,
+        -260.0,
+        -1.5,
+        400.0,
+        260.0,
+        1.5
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        800.0,
+        520.0,
+        3.0
+      ]
+    },
+    {
+      "file": "P02.step",
+      "bytes": 30183,
+      "classification": "part",
+      "sha256": "09c965340d049fbe83bac41e32ecbd6ad434637fa3e9f0e334a58180909279b0",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 2"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -400.0,
+        -260.0,
+        -1.5,
+        400.0,
+        260.0,
+        1.5
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        800.0,
+        520.0,
+        3.0
+      ]
+    },
+    {
+      "file": "P03.step",
+      "bytes": 37521,
+      "classification": "part",
+      "sha256": "1b7e8a037162cafef632169292f614842de592cd2f537de183ae053aab39776a",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 3"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -400.0,
+        -1.5,
+        -277.0,
+        400.0,
+        1.5,
+        277.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        800.0,
+        3.0,
+        554.0
+      ]
+    },
+    {
+      "file": "P04.step",
+      "bytes": 52540,
+      "classification": "part",
+      "sha256": "cc2f706dba39ea84b8476b299f79312f449d66030e3f4c1739358de463ccf6b8",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 4"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -1.5,
+        -260.0,
+        -277.0,
+        1.5,
+        260.0,
+        277.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        3.0,
+        520.0,
+        554.0
+      ]
+    },
+    {
+      "file": "P05.step",
+      "bytes": 33764,
+      "classification": "part",
+      "sha256": "3118f9264f41c91e30b235374a9e77ef89b9f4c64ff2b2e3f277045b5bf14702",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 5"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -2.0,
+        -215.0,
+        -180.0,
+        2.0,
+        215.0,
+        180.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        4.0,
+        430.0,
+        360.0
+      ]
+    },
+    {
+      "file": "P06.step",
+      "bytes": 30211,
+      "classification": "part",
+      "sha256": "26eb1d7dcd16bc1a49b07516aa177d98ce6a3dd8d1a2afcb985fc0fac26c01b6",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 6"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -15.0,
+        -15.0,
+        -440.0,
+        15.0,
+        15.0,
+        440.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        880.0
+      ]
+    },
+    {
+      "file": "P07.step",
+      "bytes": 64152,
+      "classification": "part",
+      "sha256": "ba1292ec7956798447ffa1e5d19ab96f2a3bafb0cf88f22a7f94ae3050df7469",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 7"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -4.0,
+        -6.0,
+        -410.0,
+        4.0,
+        6.0,
+        410.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        8.0,
+        12.0,
+        820.0
+      ]
+    },
+    {
+      "file": "P08.step",
+      "bytes": 74151,
+      "classification": "part",
+      "sha256": "341f228f2897e61baf3df984f5b7cc2fc0a83aab23d4d4d5ba927ade1b965eeb",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 8"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -9.0,
+        -14.0,
+        -19.0,
+        9.0,
+        14.0,
+        19.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ]
+    },
+    {
+      "file": "P09.step",
+      "bytes": 42643,
+      "classification": "part",
+      "sha256": "8d359906dfb62c9c79f4d62b6e829c4d464293b22489f1b2c63d045ac53a0e4d",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 9"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -31.0,
+        -21.0,
+        -18.5,
+        31.0,
+        21.0,
+        18.5
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ]
+    },
+    {
+      "file": "P10.step",
+      "bytes": 19415,
+      "classification": "part",
+      "sha256": "f7b6968491ebab025a7d9019033a9e939285120d9231456f4e76543c027f747c",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 10"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -19.0,
+        -19.0,
+        -145.0,
+        19.0,
+        19.0,
+        163.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        38.0,
+        38.0,
+        308.0
+      ]
+    },
+    {
+      "file": "P10R.step",
+      "bytes": 5676,
+      "classification": "part",
+      "sha256": "8976853f81d7bddec6fc6af57b5ca145e2a9ae7e645e84aa8a9bda17f9f25f7d",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 11"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -6.0,
+        -6.0,
+        -37.5,
+        6.0,
+        6.0,
+        37.5
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        12.0,
+        12.0,
+        75.0
+      ]
+    },
+    {
+      "file": "P11.step",
+      "bytes": 22726,
+      "classification": "part",
+      "sha256": "a307e03ec8a94fb0a5503f813d832b0598223c3426c2d1bbf616a018c55112a8",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 12"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -24.0,
+        -54.0,
+        -3.0,
+        24.0,
+        54.0,
+        3.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        48.0,
+        108.0,
+        6.0
+      ]
+    },
+    {
+      "file": "P12.step",
+      "bytes": 15532,
+      "classification": "part",
+      "sha256": "461a82f44d847f82068f103b52b23846bae5e4a56519168c4a03de69dfc581f0",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 13"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -1.5,
+        -10.0,
+        -180.0,
+        1.5,
+        10.0,
+        180.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        3.0,
+        20.0,
+        360.0
+      ]
+    },
+    {
+      "file": "P13.step",
+      "bytes": 15536,
+      "classification": "part",
+      "sha256": "1bf9744c8b17dd60e47c7dab5841126d595a4d93fcecc67895bbff5eb81a1327",
+      "schema": [
+        "'AUTOMOTIVE_DESIGN { 1 0 10303 214 1 1 1 1 }'"
+      ],
+      "unit": "mm",
+      "products": [
+        "Open CASCADE STEP translator 7.9 14"
+      ],
+      "assembly_occurrences": 0,
+      "has_color": false,
+      "readable": true,
+      "instances": 1,
+      "bbox_mm": [
+        -15.0,
+        -250.0,
+        -15.0,
+        15.0,
+        250.0,
+        15.0
+      ],
+      "valid": true,
+      "dimensions_mm": [
+        30.0,
+        500.0,
+        30.0
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "1/1",
+      "name": "BASE",
+      "part_id": "P01",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -400.0,
+        -260.0,
+        0.0,
+        400.0,
+        260.0,
+        3.0
+      ],
+      "dimensions_mm": [
+        800.0,
+        520.0,
+        3.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.6549019571615996,
+        0.7294117703237838,
+        0.8000000108774858
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_1.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_1.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/2",
+      "name": "ROOF",
+      "part_id": "P02",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -400.0,
+        -260.0,
+        557.0,
+        400.0,
+        260.0,
+        560.0
+      ],
+      "dimensions_mm": [
+        800.0,
+        520.0,
+        3.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.7686274688548268,
+        0.8156862841081017,
+        0.8627450837784943
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_2.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_2.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/3",
+      "name": "FRONT_PANEL",
+      "part_id": "P03",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -400.0,
+        -260.0,
+        3.0,
+        400.0,
+        -257.0,
+        557.0
+      ],
+      "dimensions_mm": [
+        800.0,
+        3.0,
+        554.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.6431372664541128,
+        0.7294117703237838,
+        0.788235302081043
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_3.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_3.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/4",
+      "name": "REAR_PANEL",
+      "part_id": "P03",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -400.0,
+        257.0,
+        3.0,
+        400.0,
+        260.0,
+        557.0
+      ],
+      "dimensions_mm": [
+        800.0,
+        3.0,
+        554.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.6431372664541128,
+        0.7294117703237838,
+        0.788235302081043
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_4.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_4.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/5",
+      "name": "END_L",
+      "part_id": "P04",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -400.0,
+        -260.0,
+        3.0,
+        -397.0,
+        260.0,
+        557.0
+      ],
+      "dimensions_mm": [
+        3.0,
+        520.0,
+        554.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.5568627525499812,
+        0.6862745072771398,
+        0.7725490078869277
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_5.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_5.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/6",
+      "name": "SHUTTER_L",
+      "part_id": "P05",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -409.0,
+        -215.0,
+        120.0,
+        -405.0,
+        215.0,
+        480.0
+      ],
+      "dimensions_mm": [
+        4.0,
+        430.0,
+        360.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.9411764599667072,
+        0.6392156906560604,
+        0.2901960725767895
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_6.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_6.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/7",
+      "name": "BRIDGE_L",
+      "part_id": "P13",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -445.0,
+        -250.0,
+        860.0,
+        -415.0,
+        250.0,
+        890.0
+      ],
+      "dimensions_mm": [
+        30.0,
+        500.0,
+        30.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.5058823548119645,
+        0.6156862845381498,
+        0.6901960856231945
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_7.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_7.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/8",
+      "name": "TOWER_L_F",
+      "part_id": "P06",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -445.0,
+        -252.0,
+        0.0,
+        -415.0,
+        -222.0,
+        880.0
+      ],
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        880.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.48627450606506534,
+        0.5960784331303468,
+        0.6784313683298966
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_8.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_8.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/9",
+      "name": "RAIL_L_F",
+      "part_id": "P07",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -455.0,
+        -243.0,
+        40.0,
+        -447.0,
+        -231.0,
+        860.0
+      ],
+      "dimensions_mm": [
+        8.0,
+        12.0,
+        820.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.14117646889981897,
+        0.49411764143805453,
+        0.5137254911601954
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_9.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_9.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/10",
+      "name": "BLOCK_L_F_1",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -477.0,
+        -251.0,
+        186.0,
+        -459.0,
+        -223.0,
+        224.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_10.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_10.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/11",
+      "name": "BRACKET_L_F_1",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -467.0,
+        -230.0,
+        186.5,
+        -405.0,
+        -188.0,
+        223.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_11.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_11.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/12",
+      "name": "BLOCK_L_F_2",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -477.0,
+        -251.0,
+        376.0,
+        -459.0,
+        -223.0,
+        414.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_12.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_12.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/13",
+      "name": "BRACKET_L_F_2",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -467.0,
+        -230.0,
+        376.5,
+        -405.0,
+        -188.0,
+        413.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_13.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_13.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/14",
+      "name": "TOWER_L_B",
+      "part_id": "P06",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -445.0,
+        222.0,
+        0.0,
+        -415.0,
+        252.0,
+        880.0
+      ],
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        880.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.48627450606506534,
+        0.5960784331303468,
+        0.6784313683298966
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_14.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_14.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/15",
+      "name": "RAIL_L_B",
+      "part_id": "P07",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -455.0,
+        231.0,
+        40.0,
+        -447.0,
+        243.0,
+        860.0
+      ],
+      "dimensions_mm": [
+        8.0,
+        12.0,
+        820.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.14117646889981897,
+        0.49411764143805453,
+        0.5137254911601954
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_15.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_15.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/16",
+      "name": "BLOCK_L_B_1",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -477.0,
+        223.0,
+        186.0,
+        -459.0,
+        251.0,
+        224.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_16.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_16.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/17",
+      "name": "BRACKET_L_B_1",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -467.0,
+        188.0,
+        186.5,
+        -405.0,
+        230.0,
+        223.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_17.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_17.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/18",
+      "name": "BLOCK_L_B_2",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -477.0,
+        223.0,
+        376.0,
+        -459.0,
+        251.0,
+        414.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_18.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_18.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/19",
+      "name": "BRACKET_L_B_2",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -467.0,
+        188.0,
+        376.5,
+        -405.0,
+        230.0,
+        413.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_19.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_19.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/20",
+      "name": "ACTUATOR_L",
+      "part_id": "P10",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -467.0,
+        274.0,
+        55.0,
+        -429.0,
+        312.0,
+        363.0
+      ],
+      "dimensions_mm": [
+        38.0,
+        38.0,
+        308.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.450980401079165,
+        0.37254902102417853,
+        0.6352941230233906
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_20.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_20.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/21",
+      "name": "ACT_ROD_L",
+      "part_id": "P10R",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "L_ACTUATOR_ROD_PARAMETRIC",
+      "bbox_mm": [
+        -454.0,
+        287.0,
+        363.0,
+        -442.0,
+        299.0,
+        438.0
+      ],
+      "dimensions_mm": [
+        12.0,
+        12.0,
+        75.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.7058823603655913,
+        0.6705882353400836,
+        0.788235302081043
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_21.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_21.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/22",
+      "name": "DRIVE_LINK_L",
+      "part_id": "P11",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "LEFT_DOOR_MOVING",
+      "bbox_mm": [
+        -450.0,
+        196.0,
+        417.0,
+        -402.0,
+        304.0,
+        423.0
+      ],
+      "dimensions_mm": [
+        48.0,
+        108.0,
+        6.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.7568627293017685,
+        0.5607843084508609,
+        0.32156862176073636
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_22.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_22.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/23",
+      "name": "SEAL_VERT_L_-202",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -405.0,
+        -212.0,
+        120.0,
+        -402.0,
+        -192.0,
+        480.0
+      ],
+      "dimensions_mm": [
+        3.0,
+        20.0,
+        360.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_23.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_23.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/24",
+      "name": "SEAL_VERT_L_202",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -405.0,
+        192.0,
+        120.0,
+        -402.0,
+        212.0,
+        480.0
+      ],
+      "dimensions_mm": [
+        3.0,
+        20.0,
+        360.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_24.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_24.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/25",
+      "name": "SEAL_H_L_133",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -405.0,
+        -180.0,
+        123.0,
+        -402.0,
+        180.0,
+        143.00000000000003
+      ],
+      "dimensions_mm": [
+        3.0,
+        360.0,
+        20.00000000000003
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_25.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_25.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/26",
+      "name": "SEAL_H_L_467",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        -405.0,
+        -180.0,
+        457.0,
+        -402.0,
+        180.0,
+        477.00000000000006
+      ],
+      "dimensions_mm": [
+        3.0,
+        360.0,
+        20.000000000000057
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_26.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_26.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/27",
+      "name": "END_R",
+      "part_id": "P04",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        397.0,
+        -260.0,
+        3.0,
+        400.0,
+        260.0,
+        557.0
+      ],
+      "dimensions_mm": [
+        3.0,
+        520.0,
+        554.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.5568627525499812,
+        0.6862745072771398,
+        0.7725490078869277
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_27.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_27.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/28",
+      "name": "SHUTTER_R",
+      "part_id": "P05",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        405.0,
+        -215.0,
+        120.0,
+        409.0,
+        215.0,
+        480.0
+      ],
+      "dimensions_mm": [
+        4.0,
+        430.0,
+        360.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.9411764599667072,
+        0.6392156906560604,
+        0.2901960725767895
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_28.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_28.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/29",
+      "name": "BRIDGE_R",
+      "part_id": "P13",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        415.0,
+        -250.0,
+        860.0,
+        445.0,
+        250.0,
+        890.0
+      ],
+      "dimensions_mm": [
+        30.0,
+        500.0,
+        30.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.5058823548119645,
+        0.6156862845381498,
+        0.6901960856231945
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_29.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_29.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/30",
+      "name": "TOWER_R_F",
+      "part_id": "P06",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        415.0,
+        -252.0,
+        0.0,
+        445.0,
+        -222.0,
+        880.0
+      ],
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        880.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.48627450606506534,
+        0.5960784331303468,
+        0.6784313683298966
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_30.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_30.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/31",
+      "name": "RAIL_R_F",
+      "part_id": "P07",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        447.0,
+        -243.0,
+        40.0,
+        455.0,
+        -231.0,
+        860.0
+      ],
+      "dimensions_mm": [
+        8.0,
+        12.0,
+        820.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.14117646889981897,
+        0.49411764143805453,
+        0.5137254911601954
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_31.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_31.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/32",
+      "name": "BLOCK_R_F_1",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        459.0,
+        -251.0,
+        186.0,
+        477.0,
+        -223.0,
+        224.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_32.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_32.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/33",
+      "name": "BRACKET_R_F_1",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        405.0,
+        -230.0,
+        186.5,
+        467.0,
+        -188.0,
+        223.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_33.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_33.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/34",
+      "name": "BLOCK_R_F_2",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        459.0,
+        -251.0,
+        376.0,
+        477.0,
+        -223.0,
+        414.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_34.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_34.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/35",
+      "name": "BRACKET_R_F_2",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        405.0,
+        -230.0,
+        376.5,
+        467.0,
+        -188.0,
+        413.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_35.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_35.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/36",
+      "name": "TOWER_R_B",
+      "part_id": "P06",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        415.0,
+        222.0,
+        0.0,
+        445.0,
+        252.0,
+        880.0
+      ],
+      "dimensions_mm": [
+        30.0,
+        30.0,
+        880.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.48627450606506534,
+        0.5960784331303468,
+        0.6784313683298966
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_36.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_36.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/37",
+      "name": "RAIL_R_B",
+      "part_id": "P07",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        447.0,
+        231.0,
+        40.0,
+        455.0,
+        243.0,
+        860.0
+      ],
+      "dimensions_mm": [
+        8.0,
+        12.0,
+        820.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.14117646889981897,
+        0.49411764143805453,
+        0.5137254911601954
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_37.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_37.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/38",
+      "name": "BLOCK_R_B_1",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        459.0,
+        223.0,
+        186.0,
+        477.0,
+        251.0,
+        224.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_38.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_38.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/39",
+      "name": "BRACKET_R_B_1",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        405.0,
+        188.0,
+        186.5,
+        467.0,
+        230.0,
+        223.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_39.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_39.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/40",
+      "name": "BLOCK_R_B_2",
+      "part_id": "P08",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        459.0,
+        223.0,
+        376.0,
+        477.0,
+        251.0,
+        414.0
+      ],
+      "dimensions_mm": [
+        18.0,
+        28.0,
+        38.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.16862744979935432,
+        0.5568627525499812,
+        0.5803921443377865
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_40.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_40.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/41",
+      "name": "BRACKET_R_B_2",
+      "part_id": "P09",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        405.0,
+        188.0,
+        376.5,
+        467.0,
+        230.0,
+        413.5
+      ],
+      "dimensions_mm": [
+        62.0,
+        42.0,
+        37.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.3294117597821478,
+        0.43137255198332003,
+        0.5294117662438377
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_41.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_41.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/42",
+      "name": "ACTUATOR_R",
+      "part_id": "P10",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        429.0,
+        274.0,
+        55.0,
+        467.0,
+        312.0,
+        363.0
+      ],
+      "dimensions_mm": [
+        38.0,
+        38.0,
+        308.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.450980401079165,
+        0.37254902102417853,
+        0.6352941230233906
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_42.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_42.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/43",
+      "name": "ACT_ROD_R",
+      "part_id": "P10R",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "R_ACTUATOR_ROD_PARAMETRIC",
+      "bbox_mm": [
+        442.0,
+        287.0,
+        363.0,
+        454.0,
+        299.0,
+        438.0
+      ],
+      "dimensions_mm": [
+        12.0,
+        12.0,
+        75.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.7058823603655913,
+        0.6705882353400836,
+        0.788235302081043
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_43.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_43.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/44",
+      "name": "DRIVE_LINK_R",
+      "part_id": "P11",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "RIGHT_DOOR_MOVING",
+      "bbox_mm": [
+        402.0,
+        196.0,
+        417.0,
+        450.0,
+        304.0,
+        423.0
+      ],
+      "dimensions_mm": [
+        48.0,
+        108.0,
+        6.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.7568627293017685,
+        0.5607843084508609,
+        0.32156862176073636
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_44.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_44.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": "Source CAD bracket/drive-link interference"
+    },
+    {
+      "id": "1/45",
+      "name": "SEAL_VERT_R_-202",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        402.0,
+        -212.0,
+        120.0,
+        405.0,
+        -192.0,
+        480.0
+      ],
+      "dimensions_mm": [
+        3.0,
+        20.0,
+        360.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_45.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_45.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/46",
+      "name": "SEAL_VERT_R_202",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        402.0,
+        192.0,
+        120.0,
+        405.0,
+        212.0,
+        480.0
+      ],
+      "dimensions_mm": [
+        3.0,
+        20.0,
+        360.0
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_46.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_46.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/47",
+      "name": "SEAL_H_R_133",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        402.0,
+        -180.0,
+        123.0,
+        405.0,
+        180.0,
+        143.00000000000003
+      ],
+      "dimensions_mm": [
+        3.0,
+        360.0,
+        20.00000000000003
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_47.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_47.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    },
+    {
+      "id": "1/48",
+      "name": "SEAL_H_R_467",
+      "part_id": "P12",
+      "source": "GA_ASSEMBLY_CLOSED.step",
+      "group": "STATIC_FRAME",
+      "bbox_mm": [
+        402.0,
+        -180.0,
+        457.0,
+        405.0,
+        180.0,
+        477.00000000000006
+      ],
+      "dimensions_mm": [
+        3.0,
+        360.0,
+        20.000000000000057
+      ],
+      "base_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "color": [
+        0.2627450996116114,
+        0.3098039199337729,
+        0.34901960363193113
+      ],
+      "color_source": "STEP",
+      "solids": 1,
+      "valid": true,
+      "visible": true,
+      "confidence": "STEP_XDE + source mapping",
+      "mesh": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_48.vtp",
+      "brep": "cache\\b8be503ab6d2790d_0.15_0.25_srgb_v2\\1_48.brep",
+      "mechanical_validated": false,
+      "simulation_exclusion": null
+    }
+  ],
+  "bom": [
+    {
+      "part_id": "P01",
+      "bom_quantity": 1,
+      "assembly_quantity": 1,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P02",
+      "bom_quantity": 1,
+      "assembly_quantity": 1,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P03",
+      "bom_quantity": 2,
+      "assembly_quantity": 2,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P04",
+      "bom_quantity": 2,
+      "assembly_quantity": 2,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P05",
+      "bom_quantity": 2,
+      "assembly_quantity": 2,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P06",
+      "bom_quantity": 4,
+      "assembly_quantity": 4,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P07",
+      "bom_quantity": 4,
+      "assembly_quantity": 4,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P08",
+      "bom_quantity": 8,
+      "assembly_quantity": 8,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P09",
+      "bom_quantity": 8,
+      "assembly_quantity": 8,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P10",
+      "bom_quantity": 2,
+      "assembly_quantity": 2,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P10R",
+      "bom_quantity": 2,
+      "assembly_quantity": 2,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P11",
+      "bom_quantity": 2,
+      "assembly_quantity": 2,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P12",
+      "bom_quantity": 8,
+      "assembly_quantity": 8,
+      "part_file_exists": true,
+      "matched": true
+    },
+    {
+      "part_id": "P13",
+      "bom_quantity": 2,
+      "assembly_quantity": 2,
+      "part_file_exists": true,
+      "matched": true
+    }
+  ],
+  "assembly_envelope_mm": [
+    -477.0,
+    -260.0,
+    0.0,
+    477.0,
+    312.0,
+    890.0
+  ],
+  "assembly_dimensions_mm": [
+    954.0,
+    572.0,
+    890.0
+  ],
+  "state_comparisons": {
+    "GA_ASSEMBLY_L_OPEN.step": {
+      "SHUTTER_L": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_L_F_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_L_F_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_L_F_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_L_F_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_L_B_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_L_B_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_L_B_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_L_B_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "ACT_ROD_L": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "DRIVE_LINK_L": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ]
+    },
+    "GA_ASSEMBLY_R_OPEN.step": {
+      "SHUTTER_R": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_R_F_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_R_F_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_R_F_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_R_F_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_R_B_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_R_B_1": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BLOCK_R_B_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "BRACKET_R_B_2": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "ACT_ROD_R": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        350.0
+      ],
+      "DRIVE_LINK_R": [
+        0.0,
+        0.0,
+        350.0,
+        0.0,
+        0.0,
+        350.0
+      ]
+    }
+  },
+  "warnings": [
+    "Rev A source identifies rails, blocks and actuator as generic envelopes, not vendor-validated mechanisms.",
+    "Measured OPEN rod is 425 mm vs CLOSED 75 mm; fixed lower end Z=363 mm. Source make_cad.py differs from actual STEP. Parametric rod display uses measured STEP endpoints.",
+    "No robot or sensor CAD is present. All robot/gripper/shoe and sensor zones are DEMO overlays."
+  ],
+  "source_parameters": {
+    "X": 800,
+    "Y": 520,
+    "Z": 560,
+    "wall_t": 3,
+    "opening_y": 380,
+    "opening_z": 310,
+    "opening_zmin": 145,
+    "opening_zmax": 455,
+    "door_y": 430,
+    "door_z": 360,
+    "door_t": 4,
+    "door_closed_zmin": 120,
+    "door_closed_zmax": 480,
+    "lift": 350,
+    "rail_l": 820,
+    "pillar_l": 880,
+    "actuator_stroke": 350
+  },
+  "geometry_is_modified": false,
+  "preflight": {
+    "method": "swept AABB broad phase + OpenCascade solid common at 10 mm poses",
+    "continuous_proof": false,
+    "critical_shutter_collisions": [],
+    "source_envelope_overlaps": [
+      {
+        "moving": "BRACKET_L_F_1",
+        "fixed": "TOWER_L_F",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          711.034979
+        ],
+        "last": [
+          350.0,
+          711.034979
+        ],
+        "min_volume_mm3": 711.034979,
+        "max_volume_mm3": 711.034979,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "BRACKET_L_F_2",
+        "fixed": "TOWER_L_F",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          711.034979
+        ],
+        "last": [
+          350.0,
+          711.034979
+        ],
+        "min_volume_mm3": 711.034979,
+        "max_volume_mm3": 711.034979,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "BRACKET_L_B_1",
+        "fixed": "TOWER_L_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          711.034979
+        ],
+        "last": [
+          350.0,
+          711.034979
+        ],
+        "min_volume_mm3": 711.034979,
+        "max_volume_mm3": 711.034979,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "BRACKET_L_B_2",
+        "fixed": "TOWER_L_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          711.034979
+        ],
+        "last": [
+          350.0,
+          711.034979
+        ],
+        "min_volume_mm3": 711.034979,
+        "max_volume_mm3": 711.034979,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "DRIVE_LINK_L",
+        "fixed": "TOWER_L_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          2496.0
+        ],
+        "last": [
+          350.0,
+          2496.0
+        ],
+        "min_volume_mm3": 2496.0,
+        "max_volume_mm3": 2496.0,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "DRIVE_LINK_L",
+        "fixed": "RAIL_L_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          216.0
+        ],
+        "last": [
+          350.0,
+          216.0
+        ],
+        "min_volume_mm3": 170.384075,
+        "max_volume_mm3": 216.0,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "DRIVE_LINK_L",
+        "fixed": "SEAL_VERT_L_202",
+        "samples_with_penetration": 7,
+        "first": [
+          0.0,
+          288.0
+        ],
+        "last": [
+          60.0,
+          144.0
+        ],
+        "min_volume_mm3": 144.0,
+        "max_volume_mm3": 288.0,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "BRACKET_R_F_1",
+        "fixed": "TOWER_R_F",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          735.523243
+        ],
+        "last": [
+          350.0,
+          735.523243
+        ],
+        "min_volume_mm3": 735.523243,
+        "max_volume_mm3": 735.523243,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "BRACKET_R_F_2",
+        "fixed": "TOWER_R_F",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          735.523243
+        ],
+        "last": [
+          350.0,
+          735.523243
+        ],
+        "min_volume_mm3": 735.523243,
+        "max_volume_mm3": 735.523243,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "BRACKET_R_B_1",
+        "fixed": "TOWER_R_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          735.523243
+        ],
+        "last": [
+          350.0,
+          735.523243
+        ],
+        "min_volume_mm3": 735.523243,
+        "max_volume_mm3": 735.523243,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "BRACKET_R_B_2",
+        "fixed": "TOWER_R_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          735.523243
+        ],
+        "last": [
+          350.0,
+          735.523243
+        ],
+        "min_volume_mm3": 735.523243,
+        "max_volume_mm3": 735.523243,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "DRIVE_LINK_R",
+        "fixed": "TOWER_R_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          2496.0
+        ],
+        "last": [
+          350.0,
+          2496.0
+        ],
+        "min_volume_mm3": 2496.0,
+        "max_volume_mm3": 2496.0,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "DRIVE_LINK_R",
+        "fixed": "RAIL_R_B",
+        "samples_with_penetration": 36,
+        "first": [
+          0.0,
+          216.0
+        ],
+        "last": [
+          350.0,
+          216.0
+        ],
+        "min_volume_mm3": 170.384075,
+        "max_volume_mm3": 216.0,
+        "classification": "source_envelope_overlap_unvalidated"
+      },
+      {
+        "moving": "DRIVE_LINK_R",
+        "fixed": "SEAL_VERT_R_202",
+        "samples_with_penetration": 7,
+        "first": [
+          0.0,
+          288.0
+        ],
+        "last": [
+          60.0,
+          144.0
+        ],
+        "min_volume_mm3": 144.0,
+        "max_volume_mm3": 288.0,
+        "classification": "source_envelope_overlap_unvalidated"
+      }
+    ],
+    "note": "Source envelope contacts are not verified assembly mates. They are highlighted and retained without geometry edits."
+  },
+  "tessellation": {
+    "linear_deflection_mm": 0.15,
+    "angular_deflection_rad": 0.25,
+    "placement": "definition mesh; base_transform applied once"
+  },
+  "reference_checks": {
+    "box_mm": {
+      "measured": [
+        800.0,
+        520.0,
+        560.0
+      ],
+      "reference": [
+        800,
+        520,
+        560
+      ],
+      "matched": true
+    },
+    "opening_yz_mm": {
+      "measured": [
+        380.0,
+        310.0
+      ],
+      "reference": [
+        380,
+        310
+      ],
+      "matched": true
+    },
+    "door_xyz_mm": {
+      "measured": [
+        4.0,
+        430.0,
+        360.0
+      ],
+      "reference": [
+        4,
+        430,
+        360
+      ],
+      "matched": true
+    },
+    "rail_length_mm": {
+      "measured": 820.0,
+      "reference": 820,
+      "matched": true
+    },
+    "tower_length_mm": {
+      "measured": 880.0,
+      "reference": 880,
+      "matched": true
+    }
+  },
+  "approved_scope": "PLATE_AND_BLOCKS — user selected plate / block / parametric rod analysis; P09/P11 excluded"
+}

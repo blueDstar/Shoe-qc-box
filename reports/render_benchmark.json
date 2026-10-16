@@ -1,0 +1,15 @@
+{
+  "frames": 120,
+  "resolution": [
+    1280,
+    720
+  ],
+  "scope": "PLATE_AND_BLOCKS",
+  "method": "wall time of engine.advance(1/30) + scene.update/render; offscreen; no UI/event pacing",
+  "mean_fps": 4.825789404641558,
+  "median_frame_ms": 169.2924499999986,
+  "p95_frame_ms": 424.85011999999944,
+  "mean_physics_ms": 2.6559233333335244,
+  "mean_scene_and_render_ms": 204.56772833333326,
+  "gpu": "OpenGL vendor string:  Intel\nOpenGL renderer string:  Intel(R) UHD Graphics\nOpenGL version string:  4.5.0 - Build 27.20.100.9079"
+}

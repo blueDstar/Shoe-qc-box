@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "error": null,
+  "captures": [
+    "F:\\shoeQCbox\\reports\\sensor_laser_scan.png",
+    "F:\\shoeQCbox\\reports\\sensor_laser_detected.png",
+    "F:\\shoeQCbox\\reports\\door_motion_left_opening.png",
+    "F:\\shoeQCbox\\reports\\door_motion_right_opening.png"
+  ],
+  "checks": [
+    "laser / housing / range labels",
+    "sensor detection notice before door opens",
+    "both detail cameras render real STEP",
+    "ruler uses live engine Z",
+    "static guide actor matrices unchanged",
+    "manual detail view independent doors"
+  ],
+  "wall_s": 41.894706
+}

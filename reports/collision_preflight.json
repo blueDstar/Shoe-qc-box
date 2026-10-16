@@ -1,0 +1,232 @@
+{
+  "method": "swept AABB broad phase + OpenCascade solid common at 10 mm poses",
+  "continuous_proof": false,
+  "critical_shutter_collisions": [],
+  "source_envelope_overlaps": [
+    {
+      "moving": "BRACKET_L_F_1",
+      "fixed": "TOWER_L_F",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        711.034979
+      ],
+      "last": [
+        350.0,
+        711.034979
+      ],
+      "min_volume_mm3": 711.034979,
+      "max_volume_mm3": 711.034979,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "BRACKET_L_F_2",
+      "fixed": "TOWER_L_F",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        711.034979
+      ],
+      "last": [
+        350.0,
+        711.034979
+      ],
+      "min_volume_mm3": 711.034979,
+      "max_volume_mm3": 711.034979,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "BRACKET_L_B_1",
+      "fixed": "TOWER_L_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        711.034979
+      ],
+      "last": [
+        350.0,
+        711.034979
+      ],
+      "min_volume_mm3": 711.034979,
+      "max_volume_mm3": 711.034979,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "BRACKET_L_B_2",
+      "fixed": "TOWER_L_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        711.034979
+      ],
+      "last": [
+        350.0,
+        711.034979
+      ],
+      "min_volume_mm3": 711.034979,
+      "max_volume_mm3": 711.034979,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "DRIVE_LINK_L",
+      "fixed": "TOWER_L_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        2496.0
+      ],
+      "last": [
+        350.0,
+        2496.0
+      ],
+      "min_volume_mm3": 2496.0,
+      "max_volume_mm3": 2496.0,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "DRIVE_LINK_L",
+      "fixed": "RAIL_L_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        216.0
+      ],
+      "last": [
+        350.0,
+        216.0
+      ],
+      "min_volume_mm3": 170.384075,
+      "max_volume_mm3": 216.0,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "DRIVE_LINK_L",
+      "fixed": "SEAL_VERT_L_202",
+      "samples_with_penetration": 7,
+      "first": [
+        0.0,
+        288.0
+      ],
+      "last": [
+        60.0,
+        144.0
+      ],
+      "min_volume_mm3": 144.0,
+      "max_volume_mm3": 288.0,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "BRACKET_R_F_1",
+      "fixed": "TOWER_R_F",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        735.523243
+      ],
+      "last": [
+        350.0,
+        735.523243
+      ],
+      "min_volume_mm3": 735.523243,
+      "max_volume_mm3": 735.523243,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "BRACKET_R_F_2",
+      "fixed": "TOWER_R_F",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        735.523243
+      ],
+      "last": [
+        350.0,
+        735.523243
+      ],
+      "min_volume_mm3": 735.523243,
+      "max_volume_mm3": 735.523243,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "BRACKET_R_B_1",
+      "fixed": "TOWER_R_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        735.523243
+      ],
+      "last": [
+        350.0,
+        735.523243
+      ],
+      "min_volume_mm3": 735.523243,
+      "max_volume_mm3": 735.523243,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "BRACKET_R_B_2",
+      "fixed": "TOWER_R_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        735.523243
+      ],
+      "last": [
+        350.0,
+        735.523243
+      ],
+      "min_volume_mm3": 735.523243,
+      "max_volume_mm3": 735.523243,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "DRIVE_LINK_R",
+      "fixed": "TOWER_R_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        2496.0
+      ],
+      "last": [
+        350.0,
+        2496.0
+      ],
+      "min_volume_mm3": 2496.0,
+      "max_volume_mm3": 2496.0,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "DRIVE_LINK_R",
+      "fixed": "RAIL_R_B",
+      "samples_with_penetration": 36,
+      "first": [
+        0.0,
+        216.0
+      ],
+      "last": [
+        350.0,
+        216.0
+      ],
+      "min_volume_mm3": 170.384075,
+      "max_volume_mm3": 216.0,
+      "classification": "source_envelope_overlap_unvalidated"
+    },
+    {
+      "moving": "DRIVE_LINK_R",
+      "fixed": "SEAL_VERT_R_202",
+      "samples_with_penetration": 7,
+      "first": [
+        0.0,
+        288.0
+      ],
+      "last": [
+        60.0,
+        144.0
+      ],
+      "min_volume_mm3": 144.0,
+      "max_volume_mm3": 288.0,
+      "classification": "source_envelope_overlap_unvalidated"
+    }
+  ],
+  "note": "Source envelope contacts are not verified assembly mates. They are highlighted and retained without geometry edits."
+}

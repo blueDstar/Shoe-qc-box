@@ -1,0 +1,15 @@
+{
+  "method": "Visible Qt loop while another GUI smoke test was rendering; not an isolated performance measurement",
+  "samples": 180,
+  "viewport_size": [
+    1335,
+    774
+  ],
+  "mean_gui_fps": 3.7037929993710503,
+  "median_interval_ms": 233.1920000000025,
+  "p95_interval_ms": 525.9543600000028,
+  "mean_callback_ms": 266.15269055555535,
+  "state": "RIGHT_CYCLE_COMPLETED",
+  "fault": "",
+  "note": "Timer target is 60 Hz; performance depends on GPU, DPI, UI and concurrent export."
+}
